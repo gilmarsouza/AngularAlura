@@ -1,5 +1,5 @@
 const controller = new NegociacaoController();
 
-document
-    .querySelector('.form')
-    .addEventListener('submit', controller.adiciona.bind(controller))
+// Comentário Blaus => 
+//Nao deverá ser gerado no JS por causa da configuração no tsconfig.json
+$('.form').submit(controller.adiciona.bind(controller))
